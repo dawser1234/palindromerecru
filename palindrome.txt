@@ -1,0 +1,16 @@
+ALGORITHM palindrome
+VAR
+    INTEGER:f=0,l=n-1;
+    method(STRING str,f,l)
+BEGIN
+    method(STRING str,f,l)
+    IF (f=l)
+    return true;
+    IF
+    (f>l)
+    return true;
+    IF
+    (str[f]=str[l])
+    return false;
+    return method(str,f+1,l-1)
+END
